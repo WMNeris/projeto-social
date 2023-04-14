@@ -30,6 +30,31 @@ main{
     height: 577px;
     width: 286px;
     background: url('../imagens/frame-iphone1.png') no-repeat;
-    
-
 }
+
+#tela{
+    position: relative;
+    top: 74px;
+    left: 21px;
+    width: 245px;
+    height: 433px;
+}
+
+section#redes-sociais{
+    text-align: right;
+}
+section#redes-sociais img{
+    border-radius: 50%;
+    width: 50px;
+    margin: 12px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.438);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover{
+    transform: translate(-10%, -10%);
+    border: 1px solid rgba(255, 255, 255, 0.400);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.600);
+    transition: transform .5s, border .3s;
+}
+
